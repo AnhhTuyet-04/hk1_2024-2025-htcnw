@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Movie Day and Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .schedule-table, .movie-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .schedule-table td, .schedule-table th,
+        .movie-table td, .movie-table th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .schedule-table th, .movie-table th {
+            background-color: #f2f2f2;
+            
+        }
+
+        .time {
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Classic Movie Day</h1>
+    <table class="movie-table">
+        <tr>
+            <th></th>
+            <th>5 pm</th>
+            <th>7 pm</th>
+            <th>9 pm</th>
+            <th>11 pm</th>
+        </tr>
+        <tr>
+            <td class="header">Screen One</td>
+            <td>Star Wars</td>
+            <td>The Empire Strikes Back</td>
+            <td>Return of the Jedi</td>
+            <td>The Exorcist</td>
+        </tr>
+        
+        <tr>
+            <td class="header">Screen Two</td>
+            <td colspan="2">Dances with Wolves</td>
+            <td colspan="2">Gone With the Wind</td>
+
+        </tr>
+        <tr>
+            <td class="header">Screen Three</td>
+            <td colspan="2">2001: A Space Odyssey</td>
+            <td>The Conversation</td>
+            <td>5 Easy Pieces</td>
+        </tr>
+    </table>
+
+    <h1>All time list in central</h1>
+    <table class="schedule-table">
+        <tr>
+            <th class="time">Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <td class="time">6:00</td>
+            <td colspan="7">National news</td>
+        </tr>
+        <tr>
+            <td class="time">6:30</td>
+            <td colspan="7">Local News</td>
+        </tr>
+        <tr>
+            <td class="time">7:00</td>
+            <td rowspan="2">Opera Fest</td>
+            <td rowspan="2">Radio U</td>
+            <td rowspan="2">Science</td>
+            <td rowspan="2">The living world</td>
+            <td>World Play</td>
+            <td>Agri Week</td>
+            <td rowspan="2">Flok Fest Fest</td>
+        </tr>
+        <tr>
+            <td class="time">7:30</td>
+            <td>Brain Stew</td>
+            <td>Bismark Forum</td>
+          
+        </tr>
+        <tr>
+            <td class="time">8:00</td>
+            <td rowspan="5" colspan="4">The Class musical connection</td>
+            <td>Old time Radio</td>
+            <td rowspan="5">Saturday Nite Jazz</td>
+            <td rowspan="5">The Indie Connection</td>
+        </tr>
+        <tr></tr>
+            <td class="time">8:30</td>
+            <td>The Inner Mind</td>
+            
+        </tr>
+        <tr>
+            <td class="time">9:00</td>
+            <td>Open Mike Nite</td>
+            
+        </tr>
+        <tr>
+            <td class="time">9:30</td>
+            <td>Relax</td>
+
+        </tr>
+        <tr>
+            <td class="time">10:00</td>
+            <td colspan="7">World News Feed</td>
+        </tr>
+    </table>
+
+</body>
+</html>
