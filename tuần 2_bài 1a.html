@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+      
+        .menu-container {
+            border: 2px solid #b10f45; 
+            padding: 20px;
+            border-radius: 0px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+
+   
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #B22222;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+      
+        nav {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0000EE;
+            font-weight: bold;
+        }
+
+        
+        h2 {
+            font-size: 2em;
+            color: #8B4513;
+            background-color: #f5f5dc;
+            padding: 10px;
+            border-radius: 5px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+
+        ul li {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+
+        .vegetarian {
+            color: red;
+            font-weight: bold;
+        }
+
+        .back-to-top {
+            text-decoration: underline; 
+            font-weight: bold; 
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <h1>EXAMPLE CAFE MENU</h1>
+
+        <nav>
+            <a href="#starter">Starter</a>
+            <a href="#main-courses">Main Courses</a>
+            <a href="#desserts">Desserts</a>
+        </nav>
+
+        <section id="starter">
+            <h2>Starter</h2>
+            <ul>
+                <li>Chestnut and Mushroom Goujons <span class="vegetarian">(v)</span></li>
+                <li>Goat Cheese <span class="vegetarian">(v)</span></li>
+                <li><b>HONEY SOY CHICKEN KEBABS</b> <span class="vegetarian">(v)</span></li>
+                <li>Seafood Salad <span class="vegetarian">(v)</span></li>
+            </ul>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </section>
+
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <ul>
+                <li>Lemon Sorbet <span class="vegetarian">(v)</span></li>
+                <li>Chocolate Mud Pie <span class="vegetarian">(v)</span></li>
+                <li>Pecan Pie <span class="vegetarian">(v)</span></li>
+                <li>Selection of fine Cheeses from Around the World <span class="vegetarian">(v)</span></li>
+            </ul>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </section>
+    </div>
+
+</body>
+</html>
