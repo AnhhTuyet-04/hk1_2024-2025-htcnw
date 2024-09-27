@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 830px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 2px solid orange;
+    margin-right: 10px;
+}
+
+.header-logo {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    margin-right: 10px;
+}
+
+.left-background {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-img {
+    height: 165px;
+}
+
+.left-menu ul li {
+    position: relative;
+    list-style-type: none;
+    color: rgb(17, 17, 128);
+    margin: 10px;
+}
+
+.li-border {
+    position: relative;
+    border-bottom: 2px dashed rgb(174, 88, 31);
+    width: 150px;
+}
+
+.right {
+    margin-left: 40px;
+}
+
+.title {
+    font-weight: bold;
+    color: orange;
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.picture {
+    position: relative;
+    margin-left: 20px;
+}
+
+.box1 {
+    width: 165px;
+    background-color: beige;
+    border-top: 3px solid rgb(86, 86, 86);
+    border-left: 3px solid rgb(86, 86, 86);
+    border-bottom: 3px solid rgb(195, 194, 194);
+    border-right: 3px solid rgb(195, 194, 194);
+    position: absolute;
+    top: 135px;
+    right: 410px;
+}
+
+.box2 {
+    width: 170px;
+    background-color: beige;
+    border-top: 3px solid rgb(86, 86, 86);
+    border-left: 3px solid rgb(86, 86, 86);
+    border-bottom: 3px solid rgb(195, 194, 194);
+    border-right: 3px solid rgb(195, 194, 194);
+    position: absolute;
+    top: 400px;
+    left: 510px;
+}
+
+.box3 {
+    width: 170px;
+    background-color: beige;
+    border-top: 3px solid rgb(86, 86, 86);
+    border-left: 3px solid rgb(86, 86, 86);
+    border-bottom: 3px solid rgb(195, 194, 194);
+    border-right: 3px solid rgb(195, 194, 194);
+    position: absolute;
+    top: 570px;
+    right: 450px;
+}
+
+.box-text {
+    margin: 10px;
+    color: brown;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid orange;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    color: orange;
+    margin-top: 5px;
+    margin-left: 10px;
+    line-height: 30px;
+}
+</style>
+<body></body>
+    <div class="wrapper">
+        <header>
+            <div class="header-logo">
+                <img src="Images/scraps.jpg" alt="">
+            </div>
+        </header>
+        <div class="content">
+            <div class="left">
+                <div class="left-background">
+                    <img src="Images/back.jpg" alt="">
+                    <img src="Images/back.jpg" alt="">
+                    <img src="Images/back.jpg" alt="">
+                    <img class="background-img" src="Images/back.jpg" alt="">
+                </div>
+                <div class="left-menu">
+                    <ul>
+                        <div class="li-border">
+                            <li>Home</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Getting Startee</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Scrapbooking Tips</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Supply List</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Online Classes</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Sample Pages</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Online Store</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Shopping Cart</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Checkout</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Your Account</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Order Status</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Wish List</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Customer Service</li>
+                        </div>
+                        <div class="li-border">
+                            <li>About Us</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Newsletter</li>
+                        </div>
+                        <div class="li-border">
+                            <li>FAQ</li>
+                        </div>
+                        <div class="li-border">
+                            <li>Contact Us</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="title">
+                    <p>Samples from Online Scrapbooks</p>
+                </div>
+                <img class="picture" src="Images/sample.jpg" alt="">
+                <footer>
+                    <div class="footer-text">
+                        <p>online scrapbooks &middot 212 Sunset drive &middot richmond, KY 40475 &middot (859) 555-8100</p>
+                    </div>
+                </footer>
+                <div class="box1">
+                    <div class="box-text">
+                        <p>Cascading Style Sheets (CSS) is a fantastic tool to add layout to your websites. It can save you a lot of time and it enables you to design websites in a completely new way. CSS is a must for anyone working with web design.</p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="box-text">
+                        <p>This tutorial will get you started with CSS in just a few hours. It is easy to understand and it will teach you all the sophisticated techniques.</p>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="box-text">
+                        <p>Learning CSS is fun. As you go along through the tutorial, remember to take enough time to properly experiment with what you learn in each lesson.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!--&middot là dấu chấm giữa dòng-->
+<!--&reg là r còng-->
